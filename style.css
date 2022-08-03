@@ -10,7 +10,11 @@ body {
     display: flex;
     background-color: #eaaf0b;
     flex-direction: column;
-    padding: 0 
+    padding: 0;
+    background-image: linear-gradient(rgba(255, 255, 255, 1) 30%,
+    rgba(224, 167, 10) 40%,
+    rgba(224, 167, 10) 80%,
+    rgb(255, 255, 255) 100%);
 }
 
 .header_top {
@@ -27,7 +31,7 @@ body {
     justify-content: space-around;
     align-items: center;
     padding-bottom: 100px;
-    padding-top: 80px;
+    padding-top: 50px;
     padding-left: 15px;
     padding-right: 15px;
     color: white;
@@ -49,9 +53,11 @@ body {
     justify-content: center;
     align-items: center;
     min-width: 500px;
+    padding-top: 30px;
 }
 
 .banner_right img , .content_2_left img{
+    margin-top: 50px;
     border: solid 5px;
     border-color: aliceblue;
     border-radius: 25px;
@@ -165,6 +171,10 @@ ul {
     justify-content: center;
     background-color: #eaaf0b;
     gap: 50px;
+    background-image: linear-gradient(rgba(255, 255, 255, 1) 0%,
+    rgba(224, 167, 10) 30%,
+    rgba(224, 167, 10) 80%,
+    rgb(255, 255, 255) 100%);
 }
 
 .content_2_right {
